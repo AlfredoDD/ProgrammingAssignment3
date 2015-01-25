@@ -9,3 +9,19 @@ nas
 print("Quality of colum as nrow-nas/nrow")
 quality <-(nrow(outcome)-nas)/nrow(outcome)
 quality
+
+### Programming Assignment 3 part 2
+
+### Finding best hospital in state
+
+best <- function(state, outcome) {
+    ## Read outcome data
+    ## Check that state and outcome are valid
+    ## Return hospital name in that state with lowest 30-day death
+    ## rate
+}
+
+
+
+
+
